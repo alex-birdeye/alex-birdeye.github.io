@@ -160,7 +160,33 @@ a, a:hover, a:active, a:focus {
     color: #747d93;
 }
 
+.comment_person > p {
+    position: absolute;
+    left: 10px;
+}/*
 
+.comment_person > img {
+    position: relative;
+    left: 10%;
+}
+
+*/
+/*.col-sm-2 > p {
+    text-align: left;
+}*/
+
+.comment_text > p {
+    width: 90%;
+}
+
+.comment_block {
+    margin-bottom: 20px;
+    /*width: 100%;*/
+}
+
+#final_section_h1 {
+    color: #000;
+}
 
 /* 3. TYPOGRAPHY */
 
@@ -1532,7 +1558,7 @@ header > .container {
 
 .testimonials {
     background-color: #f2f3f7;
-    padding: 100px 0;
+    padding: 40px 0;
 }
 
 .lj-testimonials-icon {
@@ -1562,7 +1588,7 @@ header > .container {
     -moz-border-radius: 75px;
     border-radius: 75px;
     border: 2px solid #fff;
-    display: inline-block;
+    /*display: inline-block;*/
     vertical-align: top;
 }
 
