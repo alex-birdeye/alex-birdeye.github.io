@@ -120,10 +120,10 @@ a, a:hover, a:active, a:focus {
 }
 
 #mc_embed_signup {
-    width: 350px;
+    /*width: 350px;*/
     background-color: #e5e1e8;
-    margin: auto;
-    margin-top: 100px;
+    /*margin: auto;*/
+    margin-top: 50px;
     padding: 15px;
 }
 
@@ -182,10 +182,6 @@ a, a:hover, a:active, a:focus {
 .comment_block {
     margin-bottom: 20px;
     /*width: 100%;*/
-}
-
-#final_section_h1 {
-    color: #000;
 }
 
 /* 3. TYPOGRAPHY */
@@ -326,7 +322,7 @@ header > .container {
 .lj-text-button span {
     line-height: 56px;
     color: #fff;
-    margin: 0 25px;
+    /*margin: 0 25px;*/
 }
 
 .lj-text-button a,
@@ -708,7 +704,7 @@ header > .container {
 
 .countdown {    
     background-color: #fff;
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
 .lj-countdown-title h2 {
@@ -1622,6 +1618,9 @@ header > .container {
 .contact {
     background-color: #fff;
     padding: 75px 0;
+}
+div.contact * {
+    color: #000;
 }
 
 .lj-contact h4 {
