@@ -1622,6 +1622,9 @@ header > .container {
 div.contact * {
     color: #000;
 }
+div.contact a {
+    color: #fff;
+}
 
 .lj-contact h4 {
     text-transform: uppercase;
