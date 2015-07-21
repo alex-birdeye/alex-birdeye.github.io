@@ -150,7 +150,7 @@
     });
 
     // backstretch
-    $("header").backstretch("img/bg.jpg");    
+    $("header").backstretch("img/1.jpg");    
     $(".photo").backstretch("img/bg-2.jpg");    
     $(".photo-centered").backstretch("img/bg-3.jpg");
 
