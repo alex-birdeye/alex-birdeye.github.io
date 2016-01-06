@@ -396,7 +396,8 @@ header > .container {
 }
 
 .lj-button-left {
-    background-color: #ED760E;
+    /*background-color: #ED760E;*/
+    background-color: #afb42b;
 }
 
 .lj-button-left i {
@@ -446,8 +447,10 @@ header > .container {
 
 .lj-scroll-down a:hover {
     color: #fff;
-    background-color: #ED760E;
-    border: 2px solid #ED760E;
+    /*background-color: #ED760E;*/
+    /*border: 2px solid #ED760E;*/
+    background-color: #afb42b;
+    border: 2px solid #afb42b;
 }
 
 
@@ -455,11 +458,13 @@ header > .container {
 /* 6. PRODUCT */
 
 .product {
-    padding: 150px 0;
+    padding: 50px 0;
+    background-color: #f9fbe7
 }
 
 .product.product-right {
-    background-color: #f2f3f7;
+    /*background-color: #f2f3f7;*/
+    background-color: #f0f4c3;
 }
 
 .lj-product-image {
@@ -504,8 +509,10 @@ header > .container {
 }
 
 .lj-product-button-left {    
-    border: 2px solid #ED760E;
-    background-color: #ED760E;
+    /*border: 2px solid #ED760E;*/
+    /*background-color: #ED760E;*/
+    border: 2px solid #afb42b;
+    background-color: #afb42b;
     margin-right: 10px;
 }
 
@@ -832,9 +839,10 @@ header > .container {
 /* 11. SUBSCRIBE */
 
 .subscribe {
-    padding: 150px 0;
+    padding: 80px 0;
     /*background-color: #fff;*/
-    background-color: #f2f3f7;
+    /*background-color: #f2f3f7;*/
+    background-color: #f0f4c3;
 }
 
 .subscribe-form{
@@ -1563,7 +1571,8 @@ header > .container {
 
 .testimonials {
     /*background-color: #f2f3f7;*/
-    background-color: #fff;
+    /*background-color: #fff;*/
+    background-color: #f9fbe7;
     padding: 40px 0;
 }
 
@@ -1650,7 +1659,8 @@ div.contact a {
 /* 21. FOOTER */
 
 .footer {
-    background-color: #2b2f3e;
+    /*background-color: #2b2f3e;*/
+    background-color: #afb42b;
     padding: 50px 0;
 }
 
