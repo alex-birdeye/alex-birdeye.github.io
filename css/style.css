@@ -833,7 +833,14 @@ header > .container {
 
 .subscribe {
     padding: 150px 0;
-    background-color: #fff;
+    /*background-color: #fff;*/
+    background-color: #f2f3f7;
+}
+
+.subscribe-form{
+    width: 40%;
+    margin: auto;
+    padding-top: 5%;
 }
 
 .lj-subscribe-title h3 {
@@ -1555,7 +1562,8 @@ header > .container {
 /* 19. TESTIMONIALS */
 
 .testimonials {
-    background-color: #f2f3f7;
+    /*background-color: #f2f3f7;*/
+    background-color: #fff;
     padding: 40px 0;
 }
 
