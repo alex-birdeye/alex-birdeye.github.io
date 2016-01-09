@@ -177,6 +177,7 @@ a, a:hover, a:active, a:focus {
 
 .comment_text > p {
     width: 90%;
+    font-size: 17px !important;
 }
 
 .comment_block {
