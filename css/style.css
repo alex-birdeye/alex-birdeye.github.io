@@ -163,7 +163,43 @@ a, a:hover, a:active, a:focus {
 .comment_person > p {
     position: absolute;
     left: 10px;
-}/*
+}
+
+.main-content{
+    position: relative;
+}
+
+.lj-title-paragraph > p {
+    font-size: 26px;
+}
+
+.checklist-img{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin-top: 15px;
+    /*margin-left: -35px;*/
+    padding-top: 25px;
+    opacity: 0.8;
+}
+
+.checklist-img > img {
+    position: relative;
+    bottom: 0;
+}
+
+.answers{
+    margin-top: 10px;
+    /*margin-left: 150px;*/
+    padding-top: 25px;
+    color: #13363f;
+}
+
+.subscribe-checklist{
+    margin-top: 15px;
+    padding-top: 25px;
+}
+/*
 
 .comment_person > img {
     position: relative;
@@ -245,7 +281,7 @@ header {
     width: 100%;
     overflow: hidden;
     position: relative;
-    background-color: #636773 !important;
+    background-color: #ffffff !important;
 }
 
 header > .container {
@@ -275,7 +311,7 @@ header > .container {
 }
 
 .lj-overlay-image {
-    background-image: url('../img/lines.png');
+    /*background-image: url('../img/lines.png');*/
     background-repeat: repeat;
 }
 
@@ -350,19 +386,19 @@ header > .container {
 }
 
 .lj-title {
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 .lj-title h1 {
     font-size: 2em;
     font-weight: 300;
-    color: #fff;
+    color: #13363f;
     margin: 0;
     word-wrap: break-word;
 }
 
 .lj-title span {
-    color: #fff;
+    color: #13363f;
     font-weight: 700;
 }
 
@@ -392,13 +428,14 @@ header > .container {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    margin: 0 25px;
+    /*margin: 10px 25px;*/
+    margin-bottom: 75px;
     padding: 0 25px;
 }
 
 .lj-button-left {
-    /*background-color: #ED760E;*/
-    background-color: #afb42b;
+    background-color: #ED760E;
+    /*background-color: #afb42b;*/
 }
 
 .lj-button-left i {
@@ -465,7 +502,7 @@ header > .container {
 
 .product.product-right {
     /*background-color: #f2f3f7;*/
-    background-color: #f0f4c3;
+    background-color: #13363f;
 }
 
 .lj-product-image {
@@ -479,10 +516,19 @@ header > .container {
     border-radius: 4px;
 }
 
-.lj-product h3 {
+.lj-product-dark h3 {
     font-weight: 300;
     font-size: 2.5em;
     margin: 0;
+    color: #ffffff;
+    text-align: center;
+}
+.lj-product-light h3 {
+    font-weight: 300;
+    font-size: 2.5em;
+    margin: 0;
+    color: #13363f;
+    text-align: center;
 }
 
 .lj-product h3 strong {
@@ -560,7 +606,7 @@ header > .container {
 }
 
 .lj-product-features {
-    margin-left: 25px;
+    /*margin-left: 25px;*/
     margin-top: 25px;
 }
 
@@ -568,6 +614,10 @@ header > .container {
     padding-left: 10px;
     margin-bottom: 25px;
     font-size: 18px;
+}
+
+.lj-product-features p {
+    color: #cccccc;
 }
 
 .lj-product-features li i {
@@ -840,10 +890,9 @@ header > .container {
 /* 11. SUBSCRIBE */
 
 .subscribe {
-    padding: 80px 0;
-    /*background-color: #fff;*/
+    /*padding: 80px 0;*/
+    background-color: #fff;
     /*background-color: #f2f3f7;*/
-    background-color: #f0f4c3;
 }
 
 .subscribe-form{
@@ -1573,7 +1622,7 @@ header > .container {
 .testimonials {
     /*background-color: #f2f3f7;*/
     /*background-color: #fff;*/
-    background-color: #f9fbe7;
+    background-color: #f0f4c3;
     padding: 40px 0;
 }
 
@@ -1610,7 +1659,8 @@ header > .container {
 
 .lj-testimonials > div p {
     display: inline-block;
-    color: #747d93;
+    /*color: #747d93;*/
+    color: #13363f;
     font-size: 0.9em;
     margin: 15px 0 0 10px;
     text-align: left;
@@ -1661,7 +1711,7 @@ div.contact a {
 
 .footer {
     /*background-color: #2b2f3e;*/
-    background-color: #afb42b;
+    background-color: #13363f;
     padding: 50px 0;
 }
 
@@ -1834,6 +1884,9 @@ div.contact a {
     .lj-title-paragraph p {
         padding: 0 20px;
     }
+    .lj-title-paragraph > h3 {
+        color: #ffffff !important;
+    }
 
     .lj-button-right {
         margin-top: 20px;
@@ -1844,7 +1897,10 @@ div.contact a {
     .lj-product {
         margin-top: 40px;
     }
-
+    .lj-product p {
+        font-size: 17px;
+        color: #333333;
+    }
     /* 8. ICONS */
 
     .lj-icon-box:first-child > div {

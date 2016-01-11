@@ -301,9 +301,9 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.428571429;
-  color: #333333;
+  font-size: 21px;
+  line-height: 1.15;
+  color: #13363f;
   background-color: #ffffff;
 }
 
@@ -325,7 +325,7 @@ textarea {
 
 a {
   /*color: #ed760e;*/
-  color: #afb42b;
+  color: #13363f;
   text-decoration: none;
 }
 
