@@ -303,7 +303,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 21px;
   line-height: 1.15;
-  color: #13363f;
+  /*color: #13363f;*/
+  color: #9B2D30;
   background-color: #ffffff;
 }
 
@@ -324,8 +325,8 @@ textarea {
 }
 
 a {
-  /*color: #ed760e;*/
-  color: #13363f;
+  color: #ffffff;
+  /*color: #13363f;*/
   text-decoration: none;
 }
 

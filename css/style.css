@@ -192,7 +192,8 @@ a, a:hover, a:active, a:focus {
     margin-top: 10px;
     /*margin-left: 150px;*/
     padding-top: 25px;
-    color: #13363f;
+    /*color: #13363f;*/
+    color: #9B2D30;
 }
 
 .subscribe-checklist{
@@ -277,6 +278,12 @@ only screen and (                min-resolution: 2dppx) {
 
 /* 5. HEADER */
 
+.header-top {
+    background-color: #13363f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 header {
     width: 100%;
     overflow: hidden;
@@ -286,7 +293,8 @@ header {
 
 header > .container {
     position: relative;
-    padding: 100px 0 75px;
+    /*padding: 100px 0 75px;*/
+    padding-bottom: 100px;
 }
 
 .lj-overlay {
@@ -392,13 +400,15 @@ header > .container {
 .lj-title h1 {
     font-size: 2em;
     font-weight: 300;
-    color: #13363f;
+    /*color: #13363f;*/
+    color: #9B2D30;
     margin: 0;
     word-wrap: break-word;
 }
 
 .lj-title span {
-    color: #13363f;
+    /*color: #13363f;*/
+    color: #9B2D30;
     font-weight: 700;
 }
 
@@ -429,7 +439,7 @@ header > .container {
     -moz-border-radius: 4px;
     border-radius: 4px;
     /*margin: 10px 25px;*/
-    margin-bottom: 75px;
+    margin-bottom: 15px;
     padding: 0 25px;
 }
 
@@ -516,11 +526,23 @@ header > .container {
     border-radius: 4px;
 }
 
+.icon {
+    display: block;
+    height: 65px;
+    margin-bottom: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.icon > img {
+    height: 100%;
+}
+
 .lj-product-dark h3 {
     font-weight: 300;
     font-size: 2.5em;
     margin: 0;
-    color: #ffffff;
+    color: #ffc707;
     text-align: center;
 }
 .lj-product-light h3 {
@@ -617,7 +639,14 @@ header > .container {
 }
 
 .lj-product-features p {
-    color: #cccccc;
+    border: solid 3px #ffffff;
+    height: 250px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.lj-product-features p > span {
+    color: #ffc707;
 }
 
 .lj-product-features li i {
@@ -1623,7 +1652,7 @@ header > .container {
     /*background-color: #f2f3f7;*/
     /*background-color: #fff;*/
     background-color: #f0f4c3;
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
 .lj-testimonials-icon {
@@ -1659,8 +1688,8 @@ header > .container {
 
 .lj-testimonials > div p {
     display: inline-block;
-    /*color: #747d93;*/
-    color: #13363f;
+    color: #9B2D30;
+    /*color: #13363f;*/
     font-size: 0.9em;
     margin: 15px 0 0 10px;
     text-align: left;
@@ -1712,7 +1741,9 @@ div.contact a {
 .footer {
     /*background-color: #2b2f3e;*/
     background-color: #13363f;
-    padding: 50px 0;
+    /*padding: 50px 0;*/
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .lj-footer-copyrights p {
