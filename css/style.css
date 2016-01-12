@@ -181,6 +181,8 @@ a, a:hover, a:active, a:focus {
     /*margin-left: -35px;*/
     /*padding-top: 25px;*/
     opacity: 0.8;
+    max-width:100%;
+    max-height:100%
 }
 
 .checklist-img > img {
@@ -199,6 +201,10 @@ a, a:hover, a:active, a:focus {
 .subscribe-checklist{
     margin-top: 15px;
     padding-top: 25px;
+}
+
+.form {
+    margin-left: 15%;
 }
 /*
 
@@ -398,7 +404,7 @@ header > .container {
 }
 
 .lj-title h1 {
-    font-size: 2em;
+    font-size: 2.1em;
     font-weight: 300;
     /*color: #13363f;*/
     color: #9B2D30;
@@ -1690,7 +1696,7 @@ header > .container {
     display: inline-block;
     color: #0d323b;
     /*color: #13363f;*/
-    font-size: 0.9em;
+    font-size: 0.75em;
     margin: 15px 0 0 10px;
     text-align: left;
 }
@@ -1699,6 +1705,7 @@ header > .container {
     text-transform: uppercase;
     font-weight: 700;
     display: block;
+    font-size: 15px !important;
 }
 
 .slick-dots li button:hover,
