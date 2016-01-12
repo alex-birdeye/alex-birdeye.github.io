@@ -177,7 +177,7 @@ a, a:hover, a:active, a:focus {
     display: flex;
     position: absolute;
     bottom: 0;
-    margin-top: 15px;
+    margin-top: -25px;
     /*margin-left: -35px;*/
     /*padding-top: 25px;*/
     opacity: 0.8;
@@ -394,7 +394,7 @@ header > .container {
 }
 
 .lj-title {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .lj-title h1 {
@@ -413,7 +413,7 @@ header > .container {
 }
 
 .lj-title-paragraph {
-    margin-top: 25px;
+    /*margin-top: 25px;*/
 }
 
 .lj-title-paragraph p {
@@ -558,7 +558,7 @@ header > .container {
 }
 
 .lj-product p {
-    margin: 20px 0 0;
+    /*margin: 20px 0 0;*/
 }
 
 .lj-product-button-left,
