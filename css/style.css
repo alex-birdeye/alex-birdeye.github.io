@@ -193,7 +193,7 @@ a, a:hover, a:active, a:focus {
     /*margin-left: 150px;*/
     padding-top: 25px;
     /*color: #13363f;*/
-    color: #9B2D30;
+    color: #0d323b;
 }
 
 .subscribe-checklist{
@@ -280,8 +280,8 @@ only screen and (                min-resolution: 2dppx) {
 
 .header-top {
     background-color: #13363f;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
 }
 
 header {
@@ -294,7 +294,7 @@ header {
 header > .container {
     position: relative;
     /*padding: 100px 0 75px;*/
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .lj-overlay {
@@ -394,7 +394,7 @@ header > .container {
 }
 
 .lj-title {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .lj-title h1 {
@@ -1688,7 +1688,7 @@ header > .container {
 
 .lj-testimonials > div p {
     display: inline-block;
-    color: #9B2D30;
+    color: #0d323b;
     /*color: #13363f;*/
     font-size: 0.9em;
     margin: 15px 0 0 10px;
