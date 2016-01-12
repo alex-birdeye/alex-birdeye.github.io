@@ -179,7 +179,7 @@ a, a:hover, a:active, a:focus {
     bottom: 0;
     margin-top: 15px;
     /*margin-left: -35px;*/
-    padding-top: 25px;
+    /*padding-top: 25px;*/
     opacity: 0.8;
 }
 
@@ -191,7 +191,7 @@ a, a:hover, a:active, a:focus {
 .answers{
     margin-top: 10px;
     /*margin-left: 150px;*/
-    padding-top: 25px;
+    /*padding-top: 25px;*/
     /*color: #13363f;*/
     color: #0d323b;
 }
