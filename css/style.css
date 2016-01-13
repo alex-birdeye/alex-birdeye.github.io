@@ -181,13 +181,13 @@ a, a:hover, a:active, a:focus {
     /*margin-left: -35px;*/
     /*padding-top: 25px;*/
     opacity: 0.8;
-    max-width:100%;
-    max-height:100%
 }
 
 .checklist-img > img {
     position: relative;
     bottom: 0;
+    max-width:100%;
+    max-height:100%
 }
 
 .answers{
