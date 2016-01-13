@@ -177,7 +177,7 @@ a, a:hover, a:active, a:focus {
     display: flex;
     position: absolute;
     bottom: 0;
-    margin-top: -25px;
+    margin-top: -30px;
     /*margin-left: -35px;*/
     /*padding-top: 25px;*/
     opacity: 0.8;
@@ -409,7 +409,7 @@ header > .container {
     /*color: #13363f;*/
     color: #9B2D30;
     margin: 0;
-    word-wrap: break-word;
+    /*word-wrap: break-word;*/
 }
 
 .lj-title span {
@@ -646,7 +646,7 @@ header > .container {
 
 .lj-product-features p {
     border: solid 3px #ffffff;
-    height: 250px;
+    /*height: 250px;*/
     color: #ffffff;
     padding: 10px;
 }
@@ -1911,7 +1911,7 @@ div.contact a {
 
     .lj-logo,
     .lj-text-button {
-        text-align: center;
+        /*text-align: center;*/
     }
 
     .lj-text-button {
@@ -1923,7 +1923,7 @@ div.contact a {
         padding: 0 20px;
     }
     .lj-title-paragraph > h3 {
-        color: #ffffff !important;
+        /*color: #ffffff !important;*/
     }
 
     .lj-button-right {
