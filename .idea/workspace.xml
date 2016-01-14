@@ -2,72 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9338d5b-a310-405c-87ae-a7b2de599b13" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1x1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/books2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/chec-klist1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/check-list-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/check-list.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/check-list.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/check-list1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/check-list2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/check-list3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/client-8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/face-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/face-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/face-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/face-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/lines.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo-1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phone-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phone-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/photo-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/photo-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/photo-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/photo-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/photo-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/photo-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/preg/446263521.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/preg/5_zpsf22036a4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/preg/DSC01781-Edit-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/preg/aeigPfmXVTY.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/preg/aksessuary_dlya_fotosessii_beremennyh_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/preg/beramen-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/preg/c58086161aaf9507ada669a0709a1b0d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/preg/dfa8673ee33075b5c960e279977c7a40-e1399983544886.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/preg/foto_comment.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/preg/x_3a521ff2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/preloader.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/product-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/product-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/product-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/speaker_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/speaker_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team-8.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alex-birdeye.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,20 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-84.0" vertical-offset="0" max-vertical-offset="3960">
-              <caret line="126" column="64" selection-start-line="126" selection-start-column="64" selection-end-line="126" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.6133652" vertical-offset="2852" max-vertical-offset="3960">
+              <caret line="187" column="22" selection-start-line="181" selection-start-column="18" selection-end-line="187" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.0474" vertical-offset="36017" max-vertical-offset="36882">
+            <state vertical-scroll-proportion="0.0" vertical-offset="36017" max-vertical-offset="36882">
               <caret line="557" column="16" selection-start-line="557" selection-start-column="16" selection-end-line="557" selection-end-column="16" />
               <folding />
             </state>
@@ -498,16 +433,16 @@
       <updated>1452587697138</updated>
       <workItem from="1452587697728" duration="11594000" />
       <workItem from="1452666383006" duration="36000" />
-      <workItem from="1452759963424" duration="1255000" />
+      <workItem from="1452759963424" duration="1544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12885000" />
+    <option name="totallyTimeSpent" value="13174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-3" width="1928" height="1051" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -619,18 +554,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-84.0" vertical-offset="0" max-vertical-offset="3960">
-          <caret line="126" column="64" selection-start-line="126" selection-start-column="64" selection-end-line="126" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="36017" max-vertical-offset="36882">
+          <caret line="557" column="16" selection-start-line="557" selection-start-column="16" selection-end-line="557" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.0474" vertical-offset="36017" max-vertical-offset="36882">
-          <caret line="557" column="16" selection-start-line="557" selection-start-column="16" selection-end-line="557" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.6133652" vertical-offset="2852" max-vertical-offset="3960">
+          <caret line="187" column="22" selection-start-line="181" selection-start-column="18" selection-end-line="187" selection-end-column="22" />
           <folding />
         </state>
       </provider>
