@@ -300,7 +300,7 @@ header {
 header > .container {
     position: relative;
     /*padding: 100px 0 75px;*/
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
 }
 
 .lj-overlay {
@@ -635,7 +635,7 @@ header > .container {
 
 .lj-product-features {
     /*margin-left: 25px;*/
-    margin-top: 25px;
+    /*margin-top: 25px;*/
 }
 
 .lj-product-features li {
