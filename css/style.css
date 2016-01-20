@@ -82,6 +82,15 @@ a, a:hover, a:active, a:focus {
     border: 0;
     text-decoration: none;
 }
+.thankyou{
+    margin-top: 15% !important;
+}
+.thankyou h1{
+    color: #0d323b !important;
+}
+.thankyou span{
+    color: #0d323b !important;
+}
 
 .lj-float-left {
     float: left;
