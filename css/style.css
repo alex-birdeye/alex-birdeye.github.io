@@ -82,6 +82,7 @@ a, a:hover, a:active, a:focus {
     border: 0;
     text-decoration: none;
 }
+
 .thankyou{
     margin-top: 15% !important;
 }
@@ -91,7 +92,22 @@ a, a:hover, a:active, a:focus {
 .thankyou span{
     color: #0d323b !important;
 }
+/* Download pdf page fit screen !!!!!!!!!!!!!!!*/
+.chto-brat{
+    height: 82vh;
+}
+.chto-brat-wrapper{
 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 60%;
+    margin: auto;
+}
+/* Download pdf page fit screen !!!!!!!!!!!!!!!*/
 .lj-float-left {
     float: left;
 }
