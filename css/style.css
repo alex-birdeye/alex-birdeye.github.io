@@ -107,6 +107,17 @@ a, a:hover, a:active, a:focus {
     height: 60%;
     margin: auto;
 }
+
+.pay-form {
+    /*margin-left: 15%;*/
+    width: 40%;
+    margin: auto;
+}
+#payment input[type=submit] {
+    margin-top: 10px;
+    width: 100%;
+}
+
 /* Download pdf page fit screen !!!!!!!!!!!!!!!*/
 .lj-float-left {
     float: left;
