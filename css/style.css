@@ -113,6 +113,7 @@ a, a:hover, a:active, a:focus {
     width: 40%;
     margin: auto;
 }
+/*#payment input[type=submit] {*/
 #payment input[type=submit] {
     margin-top: 10px;
     width: 100%;
