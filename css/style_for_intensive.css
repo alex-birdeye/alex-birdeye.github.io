@@ -393,6 +393,8 @@ header > .container {
 
 .lj-logo a {
     display: inline-block;
+    font-size: 28px;
+    line-height: 1.3;
 }
 
 .lj-logo img {
