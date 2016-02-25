@@ -4,9 +4,6 @@
   Version: 1.0
   URL: http://themeforest.net/user/Lumberjacks/
 */
-
-
-
 /* TABLE OF CONTENTS
 
   1. Import section
@@ -33,11 +30,7 @@
   22. Breakpoints
 
 */
-
-
-
 /* 1. IMPORT SECTION */
-
 @import url("bootstrap.css");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:700,300,600&subset=latin,latin-ext");
 @import url("font-awesome.min.css");
@@ -50,7 +43,6 @@
     font-family: nautilus;
     src: url(../fonts/Nautilus.otf);
 }
-
 
 /* 2. BASIC STYLES */
 
@@ -68,7 +60,7 @@ body {
     overflow-x: hidden;
 }
 
-a { 
+a {
     color: #fafafa;
     transition: all 0.125s ease-in-out 0s;
     -moz-transition: all 0.125s ease-in-out 0s;
@@ -87,20 +79,24 @@ a, a:hover, a:active, a:focus {
     text-decoration: none;
 }
 
-.thankyou{
+.thankyou {
     margin-top: 15% !important;
 }
-.thankyou h1{
+
+.thankyou h1 {
     color: #0d323b !important;
 }
-.thankyou span{
+
+.thankyou span {
     color: #0d323b !important;
 }
+
 /* Download pdf page fit screen !!!!!!!!!!!!!!!*/
-.chto-brat{
+.chto-brat {
     height: 82vh;
 }
-.chto-brat-wrapper{
+
+.chto-brat-wrapper {
 
     position: absolute;
     top: 0;
@@ -117,6 +113,7 @@ a, a:hover, a:active, a:focus {
     width: 40%;
     margin: auto;
 }
+
 /*#payment input[type=submit] {*/
 #payment input[type=submit] {
     margin-top: 10px;
@@ -173,7 +170,7 @@ a, a:hover, a:active, a:focus {
 }
 
 #mc_embed_signup_scroll > label {
-    text-align: center; 
+    text-align: center;
     color: #747d93;
 }
 
@@ -206,7 +203,7 @@ a, a:hover, a:active, a:focus {
     left: 10px;
 }
 
-.main-content{
+.main-content {
     position: relative;
 }
 
@@ -214,7 +211,7 @@ a, a:hover, a:active, a:focus {
     font-size: 26px;
 }
 
-.checklist-img{
+.checklist-img {
     display: flex;
     position: absolute;
     bottom: 0;
@@ -227,21 +224,21 @@ a, a:hover, a:active, a:focus {
 .checklist-img > img {
     position: relative;
     bottom: 0;
-    max-width:100%;
-    max-height:100%
+    max-width: 100%;
+    max-height: 100%
 }
 
-.answers{
+.answers {
     margin-top: 10px;
     /*margin-left: 150px;*/
     /*padding-top: 25px;*/
-    /*color: #13363f;*/
-    color: #0d323b;
+    /*color: #0d323b;*/
+    color: #c50d54;
     text-align: center;
     font-size: 24px;
 }
 
-.subscribe-checklist{
+.subscribe-checklist {
     margin-top: 15px;
     padding-top: 25px;
 }
@@ -249,6 +246,7 @@ a, a:hover, a:active, a:focus {
 .form {
     margin-left: 15%;
 }
+
 /*
 
 .comment_person > img {
@@ -301,17 +299,9 @@ p {
     text-decoration: underline;
 }
 
-
-
 /* 4. BREAKPOINT FOR HIGH-RES DEVICES */
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (   min--moz-device-pixel-ratio: 2), only screen and (     -o-min-device-pixel-ratio: 2/1), only screen and (        min-device-pixel-ratio: 2), only screen and (                min-resolution: 192dpi), only screen and (                min-resolution: 2dppx) {
 
     .lj-logo-1x {
         display: none !important;
@@ -321,9 +311,7 @@ only screen and (                min-resolution: 2dppx) {
         display: block !important;
     }
 
-} 
-
-
+}
 
 /* 5. HEADER */
 
@@ -348,7 +336,7 @@ header > .container {
 
 .lj-overlay {
     width: 100%;
-    height: 100%;   
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -373,18 +361,18 @@ header > .container {
 }
 
 .lj-overlay-color {
-    background-color: rgba(60,65,80,0.8);
+    background-color: rgba(60, 65, 80, 0.8);
 }
 
 .lj-overlay-gradient {
-    background: -moz-linear-gradient(215deg,  rgba(0,204,255,0.8) 0%, rgba(196,255,0,0.8) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(0,204,255,0.8)), color-stop(100%,rgba(196,255,0,0.8))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(215deg,  rgba(0,204,255,0.8) 0%,rgba(196,255,0,0.8) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(215deg,  rgba(0,204,255,0.8) 0%,rgba(196,255,0,0.8) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(215deg,  rgba(0,204,255,0.8) 0%,rgba(196,255,0,0.8) 100%); /* IE10+ */
-    background: linear-gradient(215deg,  rgba(0,204,255,0.8) 0%,rgba(196,255,0,0.8) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ccff', endColorstr='#c4ff00',GradientType=1 ) progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/1x1.png'); /* IE6-9 fallback on horizontal gradient */
-    pointer-events:none;
+    background: -moz-linear-gradient(215deg, rgba(0, 204, 255, 0.8) 0%, rgba(196, 255, 0, 0.8) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0, 204, 255, 0.8)), color-stop(100%, rgba(196, 255, 0, 0.8))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(215deg, rgba(0, 204, 255, 0.8) 0%, rgba(196, 255, 0, 0.8) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(215deg, rgba(0, 204, 255, 0.8) 0%, rgba(196, 255, 0, 0.8) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(215deg, rgba(0, 204, 255, 0.8) 0%, rgba(196, 255, 0, 0.8) 100%); /* IE10+ */
+    background: linear-gradient(215deg, rgba(0, 204, 255, 0.8) 0%, rgba(196, 255, 0, 0.8) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ccff', endColorstr='#c4ff00', GradientType=1) progid : DXImageTransform . Microsoft . AlphaImageLoader(src = '../img/1x1.png'); /* IE6-9 fallback on horizontal gradient */
+    pointer-events: none;
 }
 
 .lj-logo a,
@@ -422,7 +410,7 @@ header > .container {
 
 .lj-text-button span {
     line-height: 56px;
-    color: #0d323b;
+    color: #c50d54;
     /*margin: 0 25px;*/
 }
 
@@ -434,7 +422,7 @@ header > .container {
     display: inline-block;
     background-color: transparent;
     color: #fff;
-    border: 2px solid rgba(255,255,255,0.75);
+    border: 2px solid rgba(255, 255, 255, 0.75);
     font-weight: 700;
     text-transform: uppercase;
     -webkit-border-radius: 4px;
@@ -457,14 +445,14 @@ header > .container {
     font-size: 2.1em;
     font-weight: 300;
     /*color: #13363f;*/
-    color: #9B2D30;
+    color: #c50d54;
     margin: 0;
     /*word-wrap: break-word;*/
 }
 
 .lj-title span {
     /*color: #13363f;*/
-    color: #9B2D30;
+    color: #c50d54;
     font-weight: 700;
 }
 
@@ -499,7 +487,7 @@ header > .container {
 }
 
 .lj-button-left {
-    background-color: #ED760E;
+    background-color: #c50d54;
     /*background-color: #afb42b;*/
 }
 
@@ -522,7 +510,7 @@ header > .container {
     text-decoration: underline;
 }
 
-.lj-button-right:hover, 
+.lj-button-right:hover,
 .lj-button-right:focus {
     color: #fff;
     text-decoration: underline;
@@ -544,7 +532,7 @@ header > .container {
     line-height: 41px;
     color: #fff;
     background-color: transparent;
-    border: 2px solid rgba(255,255,255,0.75);
+    border: 2px solid rgba(255, 255, 255, 0.75);
     margin: 0 auto;
 }
 
@@ -555,8 +543,6 @@ header > .container {
     background-color: #afb42b;
     border: 2px solid #afb42b;
 }
-
-
 
 /* 6. PRODUCT */
 
@@ -594,22 +580,26 @@ header > .container {
     height: 100%;
 }
 
-.lj-product{
+.lj-product {
     width: 100%;
     margin: auto;
 }
 
 .lj-product-dark h3 {
+    font-family: nautilus;
     font-weight: 300;
     font-size: 2.5em;
     margin: 0;
-    color: #ffc707;
+    /*color: #ffc707;*/
+    color: #1e117f;
     text-align: center;
 }
+
 .lj-product-dark {
-    color: #ffc707;
+    /*color: #ffc707;*/
+    color: #c50d54;
     text-align: left;
-    border: dashed 1px red;
+    border: dashed 1px #808080;
     border-radius: 20px;
     margin-left: 30px;
     margin-right: 35px;
@@ -618,11 +608,24 @@ header > .container {
     padding-bottom: 5px;
     padding-left: -5px;
 }
+
+.lj-product-light {
+    border: dashed 1px #808080;
+    border-radius: 20px;
+    padding-left: 60px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .lj-product-light h3 {
     font-weight: 300;
     font-size: 2.5em;
-    /*margin: 0;*/
-    color: #13363f;
+    font-family: nautilus;
+    /*color: #13363f;*/
+    color: #1e117f;
     text-align: center;
 }
 
@@ -650,7 +653,7 @@ header > .container {
     margin: 25px 0 0;
 }
 
-.lj-product-button-left {    
+.lj-product-button-left {
     /*border: 2px solid #ED760E;*/
     /*background-color: #ED760E;*/
     border: 2px solid #afb42b;
@@ -690,14 +693,14 @@ header > .container {
 .product.product-right .lj-product-button-right {
     color: #747d93;
     background-color: #fff;
-    border: 2px solid #fff;   
+    border: 2px solid #fff;
 }
 
 .product.product-right .lj-product-button-right:hover,
 .product.product-right .lj-product-button-right:focus {
     color: #747d93;
     background-color: transparent;
-    border: 2px solid #d9dade; 
+    border: 2px solid #d9dade;
 }
 
 .lj-product-features {
@@ -737,8 +740,6 @@ header > .container {
     top: 0;
 }
 
-
-
 /* 7. PHOTO */
 
 .photo {
@@ -768,7 +769,7 @@ header > .container {
     display: inline-block;
     background-color: transparent;
     color: #fff;
-    border: 2px solid rgba(255,255,255,0.75);
+    border: 2px solid rgba(255, 255, 255, 0.75);
     font-weight: 700;
     text-transform: uppercase;
     -webkit-border-radius: 4px;
@@ -783,8 +784,6 @@ header > .container {
     color: #fff;
     border: 2px solid #2c97de;
 }
-
-
 
 /* 8. ICONS */
 
@@ -847,24 +846,25 @@ header > .container {
     /*color: #efc663;*/
     color: #ed760e;
 }
+
 .lj-icon-box-two span,
 .lj-icon-box-two h4 {
     color: #2cbf6d;
 }
+
 .lj-icon-box-three span,
 .lj-icon-box-three h4 {
     color: #e16070;
 }
+
 .lj-icon-box-four span,
 .lj-icon-box-four h4 {
     color: #9677df;
-} 
-
-
+}
 
 /* 9. COUNTDOWN */
 
-.countdown {    
+.countdown {
     background-color: #fff;
     padding: 100px 0;
 }
@@ -900,7 +900,7 @@ header > .container {
 
 .lj-countdown div span {
     width: 150px;
-    display: block;     
+    display: block;
 }
 
 .lj-countdown div span:first-child {
@@ -916,8 +916,6 @@ header > .container {
     font-size: 1em;
     line-height: 20px;
 }
-
-
 
 /* 10. PHOTO CENTERED */
 
@@ -963,7 +961,7 @@ header > .container {
 .lj-photo-centered-button:last-child:hover {
     background-color: transparent;
     color: #2b2f3e;
-    border: 2px solid rgba(43,47,62,0.75);
+    border: 2px solid rgba(43, 47, 62, 0.75);
 }
 
 .lj-photo-centered-button:last-child {
@@ -985,9 +983,7 @@ header > .container {
 .lj-photo-centered-button:hover i,
 .lj-photo-centered-button:last-child:hover i {
     color: #2b2f3e;
-} 
-
-
+}
 
 /* 11. SUBSCRIBE */
 
@@ -997,7 +993,7 @@ header > .container {
     /*background-color: #f2f3f7;*/
 }
 
-.subscribe-form{
+.subscribe-form {
     width: 40%;
     margin: auto;
     padding-top: 5%;
@@ -1024,7 +1020,7 @@ header > .container {
 .lj-subscribe-form input[type=text],
 .lj-subscribe-form input[type=submit] {
     height: 60px;
-    line-height: 60px;  
+    line-height: 60px;
     display: inline-block;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -1033,7 +1029,7 @@ header > .container {
     -moz-transition: all 0.125s ease-in-out 0s;
     -webkit-transition: all 0.125s ease-in-out 0s;
     -o-transition: all 0.125s ease-in-out 0s;
-    -ms-transition: all 0.125s ease-in-out 0s;  
+    -ms-transition: all 0.125s ease-in-out 0s;
 }
 
 .lj-subscribe-form input[type=text] {
@@ -1087,8 +1083,6 @@ header > .container {
     color: #2cbf6d;
 }
 
-
-
 /* 12. PROMO */
 
 .promo {
@@ -1130,7 +1124,7 @@ header > .container {
     -moz-border-radius: 4px;
     border-radius: 4px;
     margin: 50px 0 0;
-    padding: 0 25px; 
+    padding: 0 25px;
 }
 
 .lj-promo a:hover {
@@ -1142,8 +1136,6 @@ header > .container {
     color: #fff;
     margin-right: 5px;
 }
-
-
 
 /* 13. PHOTOS / TEXTS */
 
@@ -1184,8 +1176,6 @@ header > .container {
     margin: 20px 0 0;
 }
 
-
-
 /* 14. PRICING TABLE */
 
 .pricing-table {
@@ -1193,7 +1183,7 @@ header > .container {
     padding: 150px 0;
 }
 
-.lj-pricing-table-title h2 { 
+.lj-pricing-table-title h2 {
     font-weight: 300;
     font-size: 2.5em;
     margin: 0;
@@ -1323,8 +1313,6 @@ header > .container {
     background-color: #2c97de;
 }
 
-
-
 /* 15. JOIN NOW */
 
 .join-now {
@@ -1359,7 +1347,7 @@ header > .container {
 .lj-join-now-form input[type=text],
 .lj-join-now-form input[type=submit] {
     height: 60px;
-    line-height: 60px;  
+    line-height: 60px;
     display: inline-block;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -1368,7 +1356,7 @@ header > .container {
     -moz-transition: all 0.125s ease-in-out 0s;
     -webkit-transition: all 0.125s ease-in-out 0s;
     -o-transition: all 0.125s ease-in-out 0s;
-    -ms-transition: all 0.125s ease-in-out 0s;  
+    -ms-transition: all 0.125s ease-in-out 0s;
 }
 
 .lj-join-now-form input[type=text] {
@@ -1421,8 +1409,6 @@ header > .container {
     color: #2cbf6d;
 }
 
-
-
 /* 16. CLIENTS */
 
 .clients {
@@ -1430,7 +1416,7 @@ header > .container {
     padding: 150px 0;
 }
 
-.lj-clients-title h2 { 
+.lj-clients-title h2 {
     font-weight: 300;
     font-size: 2.5em;
     margin: 0;
@@ -1442,13 +1428,13 @@ header > .container {
     margin-bottom: 75px;
 }
 
-.lj-clients-item img { 
+.lj-clients-item img {
     max-width: 100%;
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
     -moz-opacity: 0.5;
     -khtml-opacity: 0.5;
-    opacity: 0.5;  
+    opacity: 0.5;
     transition: all 0.125s ease-in-out 0s;
     -moz-transition: all 0.125s ease-in-out 0s;
     -webkit-transition: all 0.125s ease-in-out 0s;
@@ -1459,14 +1445,12 @@ header > .container {
 }
 
 .lj-clients-item img:hover {
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     -moz-opacity: 1;
     -khtml-opacity: 1;
-    opacity: 1; 
+    opacity: 1;
 }
-
-
 
 /* 17. TEAM */
 
@@ -1528,7 +1512,7 @@ header > .container {
     -webkit-transform: translateY(-60px);
     -moz-transform: translateY(-60px);
     -ms-transform: translateY(-60px);
-    transform: translateY(-60px); 
+    transform: translateY(-60px);
     z-index: 20;
 }
 
@@ -1536,7 +1520,7 @@ header > .container {
     -webkit-transform: translateY(60px);
     -moz-transform: translateY(60px);
     -ms-transform: translateY(60px);
-    transform: translateY(60px); 
+    transform: translateY(60px);
     z-index: 19;
 }
 
@@ -1589,8 +1573,6 @@ header > .container {
     color: #d9dade;
 }
 
-
-
 /* 18. PROJECTS */
 
 .projects {
@@ -1598,7 +1580,7 @@ header > .container {
     padding: 150px 0;
 }
 
-.lj-projects-title h2 { 
+.lj-projects-title h2 {
     font-weight: 300;
     font-size: 2.5em;
     margin: 0;
@@ -1717,8 +1699,6 @@ header > .container {
     background-color: #33adff;
 }
 
-
-
 /* 19. TESTIMONIALS */
 
 .testimonials {
@@ -1761,7 +1741,7 @@ header > .container {
 
 .lj-testimonials > div p {
     display: inline-block;
-    color: #0d323b;
+    /*color: #0d323b;*/
     /*color: #13363f;*/
     font-size: 0.75em;
     margin: 15px 0 0 10px;
@@ -1776,7 +1756,7 @@ header > .container {
 }
 
 .slick-dots li button:hover,
-.slick-dots li.slick-active button { 
+.slick-dots li.slick-active button {
     background-color: #2c97de;
 }
 
@@ -1784,17 +1764,17 @@ header > .container {
     background-color: #d9dade;
 }
 
-
-
 /* 20. CONTACT */
 
 .contact {
     background-color: #fff;
     padding: 75px 0;
 }
+
 div.contact * {
     color: #000;
 }
+
 div.contact a {
     color: #fff;
 }
@@ -1807,8 +1787,6 @@ div.contact a {
 .lj-contact p {
     margin: 0;
 }
-
-
 
 /* 21. FOOTER */
 
@@ -1834,7 +1812,7 @@ div.contact a {
     font-weight: 700;
 }
 
-.fa-heart{
+.fa-heart {
     color: #fe6e3a;
 }
 
@@ -1879,17 +1857,14 @@ div.contact a {
 
 .lj-footer-socials li a:hover {
     background-color: #f2f3f7;
-    color: #747d93;   
+    color: #747d93;
 }
-
-
 
 /* 22. BREAKPOINTS */
 
 @media (max-width: 1199px) {
 
     /* 11. SUBSCRIBE */
-
     .lj-subscribe-title {
         text-align: center;
     }
@@ -1903,13 +1878,11 @@ div.contact a {
 @media (min-width: 768px) and (max-width: 991px) {
 
     /* 6. PRODUCT */
-
     .lj-product {
         margin-top: 40px;
     }
 
     /* 8. ICONS */
-
     .lj-icon-box-three,
     .lj-icon-box-four {
         margin-top: 20px;
@@ -1920,7 +1893,6 @@ div.contact a {
 @media (max-width: 991px) {
 
     /* 6. PRODUCT */
-
     .lj-product-button-left, .lj-product-button-right {
         height: auto;
     }
@@ -1930,13 +1902,11 @@ div.contact a {
     }
 
     /* 13. PHOTOS / TEXTS */
-
     .lj-photos-texts h3 {
         margin: 0;
     }
 
     /* 14. PRICING TABLE */
-
     .lj-pricing-table-normal {
         width: 75%;
         margin: 0 auto;
@@ -1955,18 +1925,16 @@ div.contact a {
     }
 
     /* 17. TEAM */
-
     .lj-team-person div p {
         font-size: 0.85em;
     }
 
     /* 18. PROJECTS */
-
     .lj-projects .row {
         margin-bottom: 0;
     }
 
-    .lj-projects .row > div {      
+    .lj-projects .row > div {
         margin: 15px 0;
     }
 
@@ -1975,7 +1943,6 @@ div.contact a {
 @media (max-width: 767px) {
 
     /* 5. HEADER */
-
     .lj-logo,
     .lj-text-button {
         /*text-align: center;*/
@@ -1989,6 +1956,7 @@ div.contact a {
     .lj-title-paragraph p {
         padding: 0 20px;
     }
+
     .lj-title-paragraph > h3 {
         /*color: #ffffff !important;*/
     }
@@ -1998,16 +1966,16 @@ div.contact a {
     }
 
     /* 6. PRODUCT */
-
     .lj-product {
         margin-top: 40px;
     }
+
     .lj-product p {
         font-size: 17px;
         color: #333333;
     }
-    /* 8. ICONS */
 
+    /* 8. ICONS */
     .lj-icon-box:first-child > div {
         margin-top: 0;
     }
@@ -2034,7 +2002,6 @@ div.contact a {
     }
 
     /* 11. SUBSCRIBE */
-
     .lj-subscribe-form input[type=text],
     .lj-subscribe-form input[type=submit] {
         margin-top: 20px;
@@ -2046,13 +2013,11 @@ div.contact a {
     }
 
     /* 13. PHOTOS / TEXTS */
-
     .lj-photos-texts-image-right {
         margin-top: 30px;
     }
 
     /* 15. JOIN NOW */
-
     .lj-join-now-form input[type=text] {
         width: 90%;
         margin-bottom: 20px;
@@ -2060,17 +2025,15 @@ div.contact a {
     }
 
     /* 17. TEAM */
-
     .lj-team .row {
         margin-bottom: 0;
     }
 
-    .lj-team .row > div {      
+    .lj-team .row > div {
         margin: 15px 0;
     }
 
     /* 20. CONTACT */
-
     .lj-contact {
         text-align: center;
         margin-top: 75px;
@@ -2081,7 +2044,6 @@ div.contact a {
     }
 
     /* 21. FOOTER */
-
     .lj-footer-copyrights,
     .lj-footer-socials {
         text-align: center;
@@ -2095,15 +2057,12 @@ div.contact a {
 
 @media (max-width: 479px) {
 
-
     /* 9. COUNTDOWN */
-
     .lj-countdown div span:first-child {
         margin-top: 20px;
     }
 
     /* 14. PRICING TABLE */
-
     .lj-pricing-table-normal {
         width: 100%;
     }
@@ -2118,10 +2077,20 @@ div.contact a {
 
 .plashka p {
     position: absolute;
-    top: 125px;
-    left: 55px;
-    color: indianred;
+    font-size: 1.7vw;
+    /*top: 125px;*/
+    /*bottom: 50px;*/
+    /*left: 55px;*/
+    color: #c50d54;
     width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 768px) {
+
+    .plashka p { font-size: 3vw; }
+
 }
 
 .plashka img {
@@ -2134,9 +2103,10 @@ div.contact a {
     margin-top: 15px;
     margin-bottom: 15px;
     display: table;
-    border: dashed 1px red;
+    border: dashed 1px #808080;
     border-radius: 20px;
 }
+
 .intensive-item p {
     display: table-cell;
     vertical-align: middle;
@@ -2147,10 +2117,40 @@ div.contact a {
 }
 
 .i-love-mom {
-    position: absolute;
-    top: 100px;
+    /*position: absolute;*/
+    /*top: 100px;*/
     /*left: 450px;*/
-    width: 25%;
-    margin-left: 40%;
-    margin-right: 40%;
+    /*margin-top: -30%;*/
+    width: 20%;
+    /*margin-left: -38%;*/
+    /*margin-right: 40%;*/
+}
+
+.plan-item {
+    /*width: 70%;*/
+    text-align: left;
+    font-size: 28px;
+    border: dashed 1px #808080;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    background-color: #dcdcdc;
+}
+
+.plan-item h2, strong {
+    font-family: nautilus;
+    color: #c50d54;
+}
+
+.plan-item p {
+    color: #c50d54;
+    font-size: 22px;
+}
+
+.intensive-answer-item {
+    margin-bottom: 15px;
+    color: #c50d54;
+    font-size: 22px;
 }
