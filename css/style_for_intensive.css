@@ -610,6 +610,7 @@ header > .container {
 }
 
 .lj-product-light {
+    color: #c50d54;
     border: dashed 1px #808080;
     border-radius: 20px;
     padding-left: 60px;
@@ -2087,7 +2088,7 @@ div.contact a {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
     .plashka p { font-size: 3vw; }
 
@@ -2095,6 +2096,14 @@ div.contact a {
 
 .plashka img {
     width: 100%;
+}
+
+.larisa {
+    position: absolute;
+    width: 75% !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .intensive-item {
@@ -2139,7 +2148,7 @@ div.contact a {
     background-color: #dcdcdc;
 }
 
-.plan-item h2, strong {
+.plan-item h2 > strong {
     font-family: nautilus;
     color: #c50d54;
 }
@@ -2153,4 +2162,12 @@ div.contact a {
     margin-bottom: 15px;
     color: #c50d54;
     font-size: 22px;
+}
+
+.format-item p {
+    font-size: 24px;
+}
+.format-item span {
+    font-weight: bold;
+    font-family: nautilus;
 }
