@@ -386,6 +386,7 @@ header > .container {
     font-size: 24px;
     line-height: 1.3;
     margin-left: 15%;
+    margin-bottom: 13%;
 }
 
 .lj-logo img {
@@ -599,7 +600,7 @@ header > .container {
     /*color: #ffc707;*/
     color: #c50d54;
     text-align: left;
-    border: dashed 1px #808080;
+    border: dashed 2px #808080;
     border-radius: 20px;
     margin-left: 30px;
     margin-right: 35px;
@@ -611,7 +612,7 @@ header > .container {
 
 .lj-product-light {
     color: #c50d54;
-    border: dashed 1px #808080;
+    border: dashed 2px #808080;
     border-radius: 20px;
     padding-left: 60px;
     padding-right: 70px;
@@ -619,6 +620,7 @@ header > .container {
     padding-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    background-color: rgba(255,255,255,0.5);
 }
 
 .lj-product-light h3 {
@@ -990,7 +992,7 @@ header > .container {
 
 .subscribe {
     /*padding: 80px 0;*/
-    background-color: #fff;
+    /*background-color: #fff;*/
     /*background-color: #f2f3f7;*/
 }
 
@@ -1705,7 +1707,7 @@ header > .container {
 .testimonials {
     /*background-color: #f2f3f7;*/
     /*background-color: #fff;*/
-    background-color: #f0f4c3;
+    /*background-color: #f0f4c3;*/
     padding: 50px 0;
 }
 
@@ -2139,7 +2141,7 @@ div.contact a {
     /*width: 70%;*/
     text-align: left;
     font-size: 28px;
-    border: dashed 1px #808080;
+    border: dashed 2px #c50d54;
     border-radius: 20px;
     margin-left: 20px;
     margin-right: 20px;
