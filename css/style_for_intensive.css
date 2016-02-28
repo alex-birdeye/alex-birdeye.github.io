@@ -602,12 +602,12 @@ header > .container {
     text-align: left;
     border: dashed 2px #808080;
     border-radius: 20px;
-    margin-left: 30px;
-    margin-right: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
     /*margin-right: 120px;*/
     padding-top: 20px;
     padding-bottom: 5px;
-    padding-left: -5px;
+    /*padding-left: -5px;*/
 }
 
 .lj-product-light {
@@ -620,7 +620,6 @@ header > .container {
     padding-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(255,255,255,0.5);
 }
 
 .lj-product-light h3 {
@@ -2090,9 +2089,12 @@ div.contact a {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 @media only screen and (max-width: 767px) {
 
-    .plashka p { font-size: 3vw; }
+    .plashka p {
+        font-size: 3vw;
+    }
 
 }
 
@@ -2100,7 +2102,7 @@ div.contact a {
     width: 100%;
 }
 
-.larisa {
+.larisa-img {
     position: absolute;
     width: 75% !important;
     top: 50%;
@@ -2128,13 +2130,18 @@ div.contact a {
 }
 
 .i-love-mom {
-    /*position: absolute;*/
-    /*top: 100px;*/
-    /*left: 450px;*/
-    /*margin-top: -30%;*/
-    width: 20%;
-    /*margin-left: -38%;*/
-    /*margin-right: 40%;*/
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url('../img/ilovemom.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+@media only screen and (max-width: 991px) {
+
+    .i-love-mom {
+        background-image: none;
+    }
+
 }
 
 .plan-item {
@@ -2169,7 +2176,31 @@ div.contact a {
 .format-item p {
     font-size: 24px;
 }
+
 .format-item span {
     font-weight: bold;
     font-family: nautilus;
+}
+
+.horse {
+    background-image: url('../img/horse.svg'); background-repeat: no-repeat; background-position: center; background-size: 15%;
+}
+@media only screen and (max-width: 767px) {
+
+    .horse {
+        background-image: none;
+    }
+
+}
+
+.larisa {
+}
+@media only screen and (max-width: 991px) {
+
+    .larisa {
+        margin-left: 10%;
+        margin-top: -5%;
+        margin-bottom: 5%;
+    }
+
 }
