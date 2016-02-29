@@ -281,6 +281,7 @@ p {
 
 .lj-text-center {
     text-align: center;
+    font-size: 28px;
 }
 
 .lj-text-left {
@@ -477,18 +478,19 @@ header > .container {
     color: #fff;
     display: inline-block;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
     height: 75px;
     line-height: 75px;
     margin-top: 35px;
-    padding: 0 25px;
+    /*padding: 0 25px;*/
     text-align: center;
     text-transform: uppercase;
     width: 300px;
+    font-size: 28px;
 }
 
 .lj-button-left {
-    background-color: #c50d54;
+    background-color: #8f001e;
     /*background-color: #afb42b;*/
 }
 
@@ -600,7 +602,7 @@ header > .container {
     /*color: #ffc707;*/
     color: #c50d54;
     text-align: left;
-    border: dashed 2px #808080;
+    border: dashed 5px #808080;
     border-radius: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -612,7 +614,7 @@ header > .container {
 
 .lj-product-light {
     color: #c50d54;
-    border: dashed 2px #808080;
+    border: dashed 5px #808080;
     border-radius: 20px;
     padding-left: 60px;
     padding-right: 70px;
@@ -2116,7 +2118,7 @@ div.contact a {
     margin-top: 15px;
     margin-bottom: 15px;
     display: table;
-    border: dashed 1px #808080;
+    border: dashed 5px #808080;
     border-radius: 20px;
 }
 
@@ -2148,7 +2150,7 @@ div.contact a {
     /*width: 70%;*/
     text-align: left;
     font-size: 28px;
-    border: dashed 2px #c50d54;
+    border: dashed 5px #c50d54;
     border-radius: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -2171,6 +2173,19 @@ div.contact a {
     margin-bottom: 15px;
     color: #c50d54;
     font-size: 22px;
+}
+.intensive-answer-item > div > p {
+    font-size: 32px;
+    margin-left: -5%;
+}
+.larisa-item > div > p {
+    margin-left: -4%;
+    color: #1e117f;
+}
+@media only screen and (max-width: 991px) {
+    .larisa-item > div > p{
+        margin-left: auto;
+    }
 }
 
 .format-item p {
