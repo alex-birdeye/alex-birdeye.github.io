@@ -281,7 +281,6 @@ p {
 
 .lj-text-center {
     text-align: center;
-    font-size: 32px;
 }
 
 .lj-text-left {
@@ -478,19 +477,18 @@ header > .container {
     color: #fff;
     display: inline-block;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 700;
     height: 75px;
     line-height: 75px;
     margin-top: 35px;
-    /*padding: 0 25px;*/
+    padding: 0 25px;
     text-align: center;
     text-transform: uppercase;
     width: 300px;
-    font-size: 28px;
 }
 
 .lj-button-left {
-    background-color: #8f001e;
+    background-color: #c50d54;
     /*background-color: #afb42b;*/
 }
 
@@ -598,6 +596,10 @@ header > .container {
     text-align: center;
 }
 
+.lj-product-dark h2 {
+    font-family: nautilus;
+}
+
 .lj-product-dark {
     /*color: #ffc707;*/
     color: #c50d54;
@@ -622,6 +624,7 @@ header > .container {
     padding-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .lj-product-light h3 {
@@ -710,11 +713,6 @@ header > .container {
 .lj-product-features {
     /*margin-left: 25px;*/
     /*margin-top: 25px;*/
-}
-
-.lj-product-features h2{
-    font-family: nautilus;
-    font-size: 40px;
 }
 
 .lj-product-features li {
@@ -2086,7 +2084,7 @@ div.contact a {
 
 .plashka p {
     position: absolute;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     /*top: 125px;*/
     /*bottom: 50px;*/
     /*left: 55px;*/
@@ -2111,10 +2109,10 @@ div.contact a {
 
 .larisa-img {
     position: absolute;
-    width: 68% !important;
+    width: 75% !important;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -51%);
+    transform: translate(-50%, -50%);
 }
 
 .intensive-item {
@@ -2122,6 +2120,7 @@ div.contact a {
     padding-bottom: 25px;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: 2%;
     display: table;
     border: dashed 5px #808080;
     border-radius: 20px;
@@ -2130,19 +2129,27 @@ div.contact a {
 .intensive-item p {
     display: table-cell;
     vertical-align: middle;
+    font-size: 20px;
     /*margin-left: 60px;*/
     /*margin-right: 60px;*/
     /*padding-left: 60px;*/
     /*padding-right: 60px;*/
 }
 
+@media only screen and (max-width: 991px) {
+    .intensive-item {
+        margin-left: 0px;
+    }
+}
+
 .i-love-mom {
-    background-color: rgba(255, 255, 255, 0.5);
+    /*background-color: rgba(255, 255, 255, 0.5);*/
     background-image: url('../img/ilovemom.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20%;
 }
+
 @media only screen and (max-width: 991px) {
 
     .i-love-mom {
@@ -2179,19 +2186,6 @@ div.contact a {
     color: #c50d54;
     font-size: 22px;
 }
-.intensive-answer-item > div > p {
-    font-size: 32px;
-    margin-left: -5%;
-}
-.larisa-item > div > p {
-    margin-left: -4%;
-    color: #1e117f;
-}
-@media only screen and (max-width: 991px) {
-    .larisa-item > div > p{
-        margin-left: auto;
-    }
-}
 
 .format-item p {
     font-size: 24px;
@@ -2203,8 +2197,12 @@ div.contact a {
 }
 
 .horse {
-    background-image: url('../img/horse.svg'); background-repeat: no-repeat; background-position: center; background-size: 15%;
+    background-image: url('../img/horse.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
 }
+
 @media only screen and (max-width: 767px) {
 
     .horse {
@@ -2215,6 +2213,7 @@ div.contact a {
 
 .larisa {
 }
+
 @media only screen and (max-width: 991px) {
 
     .larisa {
