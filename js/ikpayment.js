@@ -15,7 +15,9 @@ window.onload = function () {
 
 function pay() {
     var id = 'ID_' + getRandomInt(1, 9) * new Date().getTime();
-    var mail = $("input[name=ik_x_clientmail]").val();
+    var mail = $("input[name=ik_cli]").val();
+    var clientname = $("input[name=ik_x_clientname]").val();
+    var clientphone = $("input[name=ik_x_clientphone]").val();
     //var date = new Date().toISOString();
     var date = new Date().toISOString().slice(0, 19).replace('T', ' ');
     console.log(id);
@@ -28,7 +30,7 @@ function pay() {
     console.log(id + '\n' + mail + '\n' + date);
     //document.body.innerHTML += '<form id="dynForm" action="http://cheprasova.com/interaction.php" method="post"><input type="hidden" name="ik_pm_no" value="' + id + '" name="ik_x_clientmail" value="' + mail + '" name="ik_inv_prc" value="' + date + '"></form>';
     //document.getElementById("dynForm").submit();
-    $.post("http://cheprasova.com/interaction.php", 'ik_pm_no=' + id + '&ik_x_clientmail=' + mail + '&ik_inv_prc=' + date, function () {
+    $.post("http://cheprasova.com/interaction.php", 'ik_pm_no=' + id + '&ik_cli=' + mail + '&ik_inv_prc=' + date + '&ik_x_clientname=' + clientname + '&ik_x_clientphone=' + clientphone + '&ik_inv_st=send_to_ik', function () {
         alert("success");
     })
         .done(function () {
@@ -36,10 +38,10 @@ function pay() {
         })
         .fail(function () {
             //alert("error");
-            $('#payment').submit();
+            //$('#payment').submit();
         })
         .always(function () {
-            alert("finished");
+            //alert("finished");
         });
 
     //$.post( "http://cheprasova.com/interaction.php", "ik_pm_no=" + id);

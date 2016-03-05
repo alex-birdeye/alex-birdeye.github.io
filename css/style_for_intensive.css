@@ -112,6 +112,7 @@ a, a:hover, a:active, a:focus {
     /*margin-left: 15%;*/
     width: 40%;
     margin: auto;
+    padding-bottom: 5%;
 }
 
 /*#payment input[type=submit] {*/
@@ -229,7 +230,7 @@ a, a:hover, a:active, a:focus {
 }
 
 .answers {
-    margin-top: 10px;
+    margin-top: 5px;
     /*margin-left: 150px;*/
     /*padding-top: 25px;*/
     /*color: #0d323b;*/
@@ -272,7 +273,7 @@ a, a:hover, a:active, a:focus {
 /* 3. TYPOGRAPHY */
 
 p {
-    line-height: 1.5;
+    line-height: 1;
 }
 
 .lj-text-uppercase {
@@ -383,7 +384,7 @@ header > .container {
 
 .lj-logo a {
     display: inline-block;
-    font-size: 26px;
+    font-size: 22px;
     line-height: 1.1;
     margin-left: 15%;
     margin-bottom: 13%;
@@ -398,7 +399,7 @@ header > .container {
         /*display: unset;*/
         width: 100%;
         margin: auto;
-        font-size: 26px;
+        font-size: 22px;
         margin-left: 0;
     }
 }
@@ -604,7 +605,6 @@ header > .container {
 
 .lj-product {
     width: 100%;
-    margin: auto;
 }
 
 .lj-product-dark h3 {
@@ -625,7 +625,7 @@ header > .container {
 
 @media only screen and (max-width: 567px) {
     .lj-product-dark h3 {
-        font-size: 1.6em;
+        font-size: 30px;
     }
 }
 
@@ -637,24 +637,24 @@ header > .container {
     /*color: #ffc707;*/
     color: #c50d54;
     text-align: left;
-    border: dashed 5px #808080;
+    border: dashed 3px #808080;
     border-radius: 20px;
     margin-left: 20px;
     margin-right: 20px;
     /*margin-right: 120px;*/
     padding-top: 20px;
-    padding-bottom: 5px;
+    /*padding-bottom: 5px;*/
     /*padding-left: -5px;*/
 }
 
 .lj-product-light {
     color: #c50d54;
-    border: dashed 5px #808080;
+    border: dashed 3px #808080;
     border-radius: 20px;
     padding-left: 60px;
     padding-right: 70px;
     padding-top: 10px;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
     margin-left: 20px;
     margin-right: 20px;
     background-color: rgba(255, 255, 255, 0.5);
@@ -671,7 +671,7 @@ header > .container {
 
 @media only screen and (max-width: 767px) {
     .lj-product-light h3 {
-        font-size: 1.8em;
+        font-size: 30px;
     }
 }
 
@@ -1931,7 +1931,7 @@ div.contact a {
 
     /* 6. PRODUCT */
     .lj-product {
-        margin-top: 40px;
+        /*margin-top: 40px;*/
     }
 
     /* 8. ICONS */
@@ -2020,7 +2020,7 @@ div.contact a {
 
     /* 6. PRODUCT */
     .lj-product {
-        margin-top: 40px;
+        /*margin-top: 40px;*/
     }
 
     .lj-product p {
@@ -2135,10 +2135,20 @@ div.contact a {
     /*bottom: 50px;*/
     /*left: 55px;*/
     color: #c50d54;
-    width: 75%;
+    width: 70%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-weight: bold;
+    /*padding: 0 10% 0 10%;*/
+}
+
+@media only screen and (min-width: 1530px) {
+
+    .plashka p {
+        font-size: 0.9vw;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -2168,7 +2178,7 @@ div.contact a {
     margin-bottom: 15px;
     margin-left: 2%;
     display: table;
-    border: dashed 5px #808080;
+    border: dashed 3px #808080;
     border-radius: 20px;
 }
 
@@ -2180,6 +2190,12 @@ div.contact a {
     /*margin-right: 60px;*/
     /*padding-left: 60px;*/
     /*padding-right: 60px;*/
+}
+@media only screen and (max-width: 991px) {
+    .intensive-item p {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -2195,6 +2211,7 @@ div.contact a {
 
     .intensive-item p {
         color: #c50d54;
+        font-size: 18px;
     }
 }
 
@@ -2218,7 +2235,7 @@ div.contact a {
     /*width: 70%;*/
     text-align: left;
     font-size: 28px;
-    border: dashed 5px #c50d54;
+    border: dashed 3px #c50d54;
     border-radius: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -2233,7 +2250,7 @@ div.contact a {
 
 @media only screen and (max-width: 767px) {
     .plan-item {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .plan-item h2 {
@@ -2241,7 +2258,7 @@ div.contact a {
     }
 
     .plan-item > div > div > p {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -2274,11 +2291,12 @@ div.contact a {
 
 @media only screen and (max-width: 567px) {
     .intensive-answer-item {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .intensive-answer-item img {
-        width: 7vw;
+        /*width: 7vw;*/
+        width: 25px;
         left: 45%;
     }
 }
@@ -2290,6 +2308,12 @@ div.contact a {
 .format-item span {
     font-weight: bold;
     font-family: nautilus;
+}
+
+@media only screen and (max-width: 767px) {
+    .format-item p {
+        font-size: 18px;
+    }
 }
 
 .horse {
@@ -2349,7 +2373,7 @@ div.contact a {
 
 .header-content {
     color: #1e117f;
-    font-size: 30px;
+    font-size: 22px;
     /*margin-top: 4%;*/
     padding-right: 85px;
 }
@@ -2372,7 +2396,7 @@ div.contact a {
 }
 
 @media only screen and (max-width: 991px) {
-    .larisa-item p{
+    .larisa-item p {
         text-align: center;
     }
 }
