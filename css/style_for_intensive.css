@@ -2273,9 +2273,10 @@ div.contact a {
 }
 
 .intensive-answer-item {
-    margin-bottom: 15px;
+    margin-bottom: 70px;
     color: #c50d54;
     font-size: 22px;
+    height: 0;
 }
 
 .intensive-answer-item img {
@@ -2399,4 +2400,16 @@ div.contact a {
     .larisa-item p {
         text-align: center;
     }
+}
+
+.row-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+}
+.col-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
 }
