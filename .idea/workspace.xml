@@ -57,9 +57,10 @@
       <file leaf-file-name="made-with-love.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/free/made-with-love.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7038778" vertical-offset="1543" max-vertical-offset="3312">
-              <caret line="119" column="86" selection-start-line="119" selection-start-column="86" selection-end-line="119" selection-end-column="86" />
+            <state vertical-scroll-proportion="0.38660398" vertical-offset="949" max-vertical-offset="3312">
+              <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
               <folding>
+                <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -72,35 +73,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ikpayment.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/ikpayment.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1566">
-              <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="madewithlove_payment.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/madewithlove_payment.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1566">
-              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/made-with-love/image.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="background.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/made-with-love/background.jpg">
+      <file leaf-file-name="main.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/made-with-love/main.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -537,12 +511,12 @@
       <workItem from="1456740240235" duration="11977000" />
       <workItem from="1457947076782" duration="4472000" />
       <workItem from="1457963891120" duration="1391000" />
-      <workItem from="1457971019078" duration="1094000" />
+      <workItem from="1457971019078" duration="1402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51991000" />
+    <option name="totallyTimeSpent" value="52299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-3" width="1928" height="1051" extended-state="6" />
@@ -602,19 +576,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style_for_intensive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="42695" max-vertical-offset="43560">
-          <caret line="2414" column="1" selection-start-line="2414" selection-start-column="1" selection-end-line="2414" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/free/made-with-love.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3312">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -969,11 +936,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/made-with-love/main.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/free/made-with-love.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7038778" vertical-offset="1543" max-vertical-offset="3312">
-          <caret line="119" column="86" selection-start-line="119" selection-start-column="86" selection-end-line="119" selection-end-column="86" />
+        <state vertical-scroll-proportion="0.38660398" vertical-offset="949" max-vertical-offset="3312">
+          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
           <folding>
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
