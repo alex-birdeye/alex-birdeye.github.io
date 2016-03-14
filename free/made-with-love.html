@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>Ассоциация Осознанного Родительства</title>
+
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="../css/style_for_intensive.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../css/bootstrap_1.css">
+
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <script src="../js/ikpayment.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-72476586-1', 'auto');
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq)return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq)f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window,
+                document, 'script', '//connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '1703542496570012');
+        fbq('track', "PageView");
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=1703542496570012&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div class="lj-preloader"></div>
+<!-- /PRELOADER -->
+
+<header>
+
+    <div class=" module"
+         style="background-image: url('../img/made-with-love/background.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="row">
+            <!--<div class="col-md-3 col-xs-12 col-sm-4 lj-logo wow fadeInDown" style="margin-bottom: 5%;">-->
+            <!--<a href="#" title="" style="color: #756ca3;margin-top: 10%;">-->
+            <!--Ассоциация<br>-->
+            <!--Осознанного<br>-->
+            <!--Родительства-->
+            <!--</a>-->
+            <!--</div>-->
+            <div class="col-xs-12 col-sm-12 col-md-12 lj-title wow fadeInDown" data-wow-delay="0.5s" style="left: 0;">
+                <h1 class="lj-text-center header-text">
+                    <strong><span>MADE WITH LOVE</span></strong><br>Онлайн программа подготовки к родам</h1>
+            </div>
+        </div>
+        <!-- /TITLE -->
+
+        <!-- TITLE PARAGRAPH -->
+        <!--<div class="row">-->
+        <!--<div class="col-xs-offset-2 col-xs-12 col-sm-12 col-md-7 col-md-offset-5 lj-title-paragraph wow fadeInDown header-content"-->
+        <!--data-wow-delay="1s"-->
+        <!--style="">-->
+        <!--<h3 class="lj-text-center header-content">Как сформировать четкую картинку-->
+        <!--родов, избавиться от-->
+        <!--лишних-->
+        <!--страхов и переживаний, понять что нужно делать во время родов, освоить естественные методы-->
+        <!--обезболивания и обеспечить комфортное рождение вашего ребенка.</h3>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!-- /TITLE PARAGRAPH -->
+
+        <div class="row" style="margin-top: 2%;">
+            <div class="col-md-3 col-md-offset-1 col-xs-12 col-sm-12 pay-form wow fadeIn" data-wow-delay="0.5s" style="padding-right: 7%; margin-top: 10%;">
+                <form id="payment" name="payment" method="post" action="https://sci.interkassa.com/"
+                      enctype="utf-8">
+                    <input type="hidden" name="ik_co_id" value="56b340d33b1eafc02b8b4570"/>
+                    <input id="payment-id" type="hidden" name="ik_pm_no" value=""/>
+                    <input type="hidden" name="ik_am" value="100.00"/>
+                    <input type="hidden" name="ik_cur" value="UAH"/>
+                    <input type="hidden" name="ik_desc" value="Made with love payment"/>
+                    <input type="text" class="form-control" name="ik_x_clientname" value="" placeholder="Имя"
+                           required="Введите Ваше имя"/>
+                    <input type="email" class="form-control" name="ik_cli" value="" placeholder="E-mail"
+                           required="Введите Ваш e-mail" style="margin-top: 10px;"/>
+                    <input type="text" class="form-control" name="ik_x_clientphone" value="" placeholder="Телефон"
+                           required="Введите Ваш телефон" style="margin-top: 10px;"/>
+                    <input class="lj-button-left" type="submit" value="Оплатить" onclick="pay()" style="border: solid 2px #c50d54;">
+                </form>
+            </div>
+            <div class="col-md-6">
+                <img src="../img/made-with-love/image.jpg">
+            </div>
+        </div>
+        <!--<div class="col-xs-12 col-sm-4 col-sm-offset-2 lj-buttons wow fadeInUp" data-wow-delay="1.5s">-->
+            <!--<a href="#registration" class="lj-button-left scroll-to-subscribe" style="margin-bottom: 5%;">Принять-->
+                <!--участие-->
+                <!--&lt;!&ndash;<i class="fa fa-long-arrow-right"></i>&ndash;&gt;</a>-->
+        <!--</div>-->
+    </div>
+    <!--</div>-->
+
+</header>
+
+<!-- FOOTER -->
+<div class="footer module">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 lj-footer-copyrights wow fadeInUp" data-wow-delay="0.5s">
+                <p>Designed with <span class="fa fa-heart"></span> by <a target="_blank"
+                                                                         href="http://www.citrusdev.com.ua/">CitrusDev</a>
+                </p>
+            </div>
+            <!--<div class="col-sm-6 lj-footer-socials wow fadeInUp" data-wow-delay="0.5s">-->
+            <!--<ul>-->
+            <!--<li><a class="fa fa-facebook" href="#"></a></li>-->
+            <!--<li><a class="fa fa-twitter" href="#"></a></li>-->
+            <!--<li><a class="fa fa-dribbble" href="#"></a></li>-->
+            <!--</ul>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+<!-- /FOOTER -->
+
+<!-- jQuery -->
+<script src="../js/jquery-1.11.0.min.js"></script>
+<!-- Backstretch -->
+<script src="../js/jquery.backstretch.min.js"></script>
+<!-- slick -->
+<script src="../js/slick.min.js"></script>
+<!-- Featherlight -->
+<script src="../js/featherlight.min.js"></script>
+<!-- WordsRotator -->
+<script src="../js/jquery.wordrotator.min.js"></script>
+<!-- Countdown -->
+<script src="../js/jquery.countdown.js"></script>
+<!-- Ajax mailchimp -->
+<script src="../js/jquery.ajaxchimp.js"></script>
+<!-- WOW.js -->
+<script src="../js/wow.min.js"></script>
+<!-- Holy Wood js scripts -->
+<script src="../js/lj-holywood.js"></script>
+<!-- Bootstrap js scripts -->
+<script src="../js/bootstrap.js"></script>
+</body>
+</html>
