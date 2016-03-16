@@ -43,6 +43,10 @@
     font-family: nautilus;
     src: url(../fonts/Nautilus.otf);
 }
+@font-face {
+    font-family: boomboom;
+    src: url(../fonts/boomboom.woff);
+}
 
 /* 2. BASIC STYLES */
 
@@ -512,6 +516,11 @@ header > .container {
 .lj-button-left {
     background-color: #c50d54;
     /*background-color: #afb42b;*/
+}
+@media only screen and (max-width: 767px) {
+    .lj-button-left {
+        font-size: 20px;
+    }
 }
 
 .lj-button-left i {
@@ -2234,14 +2243,14 @@ div.contact a {
 .plan-item {
     /*width: 70%;*/
     text-align: left;
-    font-size: 28px;
-    border: dashed 3px #c50d54;
+    font-size: 20px;
+    /*border: dashed 3px #c50d54;*/
     border-radius: 20px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
     padding-top: 10px;
-    background-color: #dcdcdc;
+    /*background-color: #dcdcdc;*/
 }
 
 .plan-item > div > div > p {
@@ -2262,14 +2271,21 @@ div.contact a {
     }
 }
 
+.plan-item h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .plan-item h2 > strong {
     font-family: nautilus;
+    font-size: 28px;
     color: #c50d54;
 }
 
 .plan-item p {
     color: #c50d54;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .intensive-answer-item {
@@ -2399,6 +2415,11 @@ div.contact a {
 @media only screen and (max-width: 991px) {
     .larisa-item p {
         text-align: center;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .format-item {
+        margin-left: 20%;
     }
 }
 
