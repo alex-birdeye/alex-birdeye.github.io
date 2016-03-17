@@ -43,6 +43,7 @@
     font-family: nautilus;
     src: url(../fonts/Nautilus.otf);
 }
+
 @font-face {
     font-family: boomboom;
     src: url(../fonts/boomboom.woff);
@@ -507,7 +508,7 @@ header > .container {
     height: 75px;
     line-height: 75px;
     margin-top: 35px;
-    padding: 0 25px;
+    /*padding: 0 25px;*/
     text-align: center;
     text-transform: uppercase;
     width: 300px;
@@ -517,9 +518,15 @@ header > .container {
     background-color: #c50d54;
     /*background-color: #afb42b;*/
 }
+
 @media only screen and (max-width: 767px) {
     .lj-button-left {
         font-size: 20px;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .lj-button-left {
+        font-size: 18px;
     }
 }
 
@@ -1861,7 +1868,6 @@ div.contact a {
 
 .lj-footer-copyrights p {
     font-size: 0.7em;
-    line-height: 40px;
     margin: 0;
     color: #747d93;
 }
@@ -2110,6 +2116,7 @@ div.contact a {
     .lj-footer-socials {
         text-align: center;
     }
+
     .lj-footer-socials {
         margin-top: 40px;
     }
@@ -2199,6 +2206,7 @@ div.contact a {
     /*padding-left: 60px;*/
     /*padding-right: 60px;*/
 }
+
 @media only screen and (max-width: 991px) {
     .intensive-item p {
         padding-top: 10px !important;
@@ -2276,6 +2284,7 @@ div.contact a {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 .plan-item h2 > strong {
     font-family: nautilus;
     font-size: 28px;
@@ -2348,6 +2357,7 @@ div.contact a {
 }
 
 .larisa {
+    padding-top: 0px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -2416,6 +2426,7 @@ div.contact a {
         text-align: center;
     }
 }
+
 @media only screen and (min-width: 992px) {
     .format-item {
         margin-left: 20%;
@@ -2428,8 +2439,14 @@ div.contact a {
     height: 100%;
     width: 100%;
 }
+
 .col-height {
     display: table-cell;
     float: none;
     height: 100%;
+}
+
+.speaker-description {
+    margin-top: 5%;
+    text-align: center;
 }
