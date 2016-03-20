@@ -2308,15 +2308,19 @@ div.contact a {
 }
 
 @media only screen and (max-width: 991px) {
+    .intensive-answer-item {
+        font-size: 20px;
+    }
     .intensive-answer-item img {
         width: 4vw;
-        margin-left: 45%;
+        /*margin-left: 45%;*/
+        left: 45%;
     }
 }
 
 @media only screen and (max-width: 567px) {
     .intensive-answer-item {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .intensive-answer-item img {
@@ -2447,7 +2451,7 @@ div.contact a {
 }
 
 .speaker-description {
-    margin-top: 5%;
+    /*margin-top: 5%;*/
     text-align: left;
 }
 
