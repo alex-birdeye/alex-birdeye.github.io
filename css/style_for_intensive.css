@@ -1797,14 +1797,14 @@ header > .container {
 }
 
 .lj-testimonials > div img {
-    width: 75px;
-    height: 75px;
-    -webkit-border-radius: 75px;
-    -moz-border-radius: 75px;
-    border-radius: 75px;
-    border: 2px solid #fff;
+    /*width: 75px;*/
+    /*height: 75px;*/
+    /*-webkit-border-radius: 75px;*/
+    /*-moz-border-radius: 75px;*/
+    /*border-radius: 75px;*/
+    /*border: 2px solid #fff;*/
     /*display: inline-block;*/
-    vertical-align: top;
+    /*vertical-align: top;*/
 }
 
 .lj-testimonials > div p {
@@ -2448,5 +2448,11 @@ div.contact a {
 
 .speaker-description {
     margin-top: 5%;
-    text-align: center;
+    text-align: left;
+}
+
+@media only screen and (min-width: 992px) {
+    .sponsor img {
+        padding-top: 20%;
+    }
 }
