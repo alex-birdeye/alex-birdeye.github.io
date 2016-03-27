@@ -90,7 +90,7 @@
 
     // Slick initializer function
     $(".lj-carousel").slick({
-      //autoplay: true,
+      autoplay: true,
       autoplaySpeed: 5000,
       dots: true,
       arrows: false

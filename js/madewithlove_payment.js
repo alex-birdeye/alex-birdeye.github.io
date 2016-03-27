@@ -31,11 +31,10 @@ function pay() {
     //document.body.innerHTML += '<form id="dynForm" action="http://cheprasova.com/interaction.php" method="post"><input type="hidden" name="ik_pm_no" value="' + id + '" name="ik_x_clientmail" value="' + mail + '" name="ik_inv_prc" value="' + date + '"></form>';
     //document.getElementById("dynForm").submit();
     $.post("http://cheprasova.com/interaction2.php", 'ik_pm_no=' + id + '&ik_cli=' + mail + '&ik_inv_prc=' + date + '&ik_x_clientname=' + clientname + '&ik_x_clientphone=' + clientphone + '&ik_inv_st=send_to_ik', function () {
-        //alert("success");
-        $('#payment').submit()
+	$('#payment').submit();
     })
         .done(function () {
-            //alert("second success");
+           
         })
         .fail(function () {
             //alert("error");

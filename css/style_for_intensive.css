@@ -524,6 +524,7 @@ header > .container {
         font-size: 20px;
     }
 }
+
 @media only screen and (max-width: 340px) {
     .lj-button-left {
         font-size: 18px;
@@ -2311,6 +2312,7 @@ div.contact a {
     .intensive-answer-item {
         font-size: 20px;
     }
+
     .intensive-answer-item img {
         width: 4vw;
         /*margin-left: 45%;*/
@@ -2332,6 +2334,7 @@ div.contact a {
 
 .format-item p {
     font-size: 24px;
+    line-height: 1.5em;
 }
 
 .format-item span {
@@ -2433,7 +2436,7 @@ div.contact a {
 
 @media only screen and (min-width: 992px) {
     .format-item {
-        margin-left: 20%;
+        /*margin-left: 20%;*/
     }
 }
 
@@ -2454,9 +2457,44 @@ div.contact a {
     /*margin-top: 5%;*/
     text-align: left;
 }
+.speaker-description h2 {
+    margin-bottom: 10px;
+}
 
 @media only screen and (min-width: 992px) {
     .sponsor img {
         padding-top: 20%;
     }
 }
+
+@media only screen and (min-width: 360px) {
+    .plashka-speaker {
+        /*width: 100%;*/
+        left: 2%;
+    }
+
+    .speaker-description {
+        margin-top: -7%;
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .plashka-speaker {
+        width: 150%;
+        left: -80%;
+        top: -9vh;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .plashka-speaker {
+        width: 150%;
+        left: -80%;
+        top: -13vh;
+    }
+}
+
+.speaker {
+    padding-top: 3%;
+}
+

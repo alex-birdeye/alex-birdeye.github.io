@@ -32,7 +32,7 @@ function pay() {
     //document.getElementById("dynForm").submit();
     $.post("http://cheprasova.com/interaction.php", 'ik_pm_no=' + id + '&ik_cli=' + mail + '&ik_inv_prc=' + date + '&ik_x_clientname=' + clientname + '&ik_x_clientphone=' + clientphone + '&ik_inv_st=send_to_ik', function () {
         //alert("success");
-        $('#payment').submit()
+        $('#payment').submit();
     })
         .done(function () {
             //alert("second success");

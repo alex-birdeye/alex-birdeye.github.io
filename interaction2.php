@@ -1,6 +1,7 @@
 <?php
 
 echo "Hello" . '<br />';
+
 print_r($_POST);
 $getvalue = print_r($_POST, 1);
 $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
@@ -32,7 +33,7 @@ $status = '"' . $_POST["ik_inv_st"] . '"';
 
 echo $mysqltime;
 
-$sql_upd = 'UPDATE intensive_billings SET status=' . $status . ', date=' . $date . ' WHERE id=' . $id;
+$sql_upd = 'UPDATE madewithlove_billings SET status=' . $status . ', date=' . $date . ' WHERE id=' . $id;
 
 if ($conn->query($sql_upd) === TRUE) {
     echo "Record updated successfully";
@@ -42,7 +43,7 @@ if ($conn->query($sql_upd) === TRUE) {
     fwrite($myfile, "UPD Error: " . $sql . "\n" . $conn->error);
 }
 
-$sql = "INSERT INTO intensive_billings (id, clientname, mail, clientphone, date, status)
+$sql = "INSERT INTO madewithlove_billings (id, clientname, mail, clientphone, date, status)
 VALUES ($id, $clientname, $mail, $clientphone, $date, $status)";
 
 if ($conn->query($sql) === TRUE) {
