@@ -18,6 +18,14 @@ function pay() {
     var mail = $("input[name=ik_cli]").val();
     var clientname = $("input[name=ik_x_clientname]").val();
     var clientphone = $("input[name=ik_x_clientphone]").val();
+    var participants = $("#participants").val();
+    if (participants == 1)
+        $("input[name=ik_am]").val(150);
+    if (participants == 2)
+        $("input[name=ik_am]").val(200);
+
+    var price = $("input[name=ik_am]").val();
+    //alert($("input[name=ik_am]").val());
     //var date = new Date().toISOString();
     var date = new Date().toISOString().slice(0, 19).replace('T', ' ');
     console.log(id);
@@ -30,9 +38,10 @@ function pay() {
     console.log(id + '\n' + mail + '\n' + date);
     //document.body.innerHTML += '<form id="dynForm" action="http://cheprasova.com/interaction.php" method="post"><input type="hidden" name="ik_pm_no" value="' + id + '" name="ik_x_clientmail" value="' + mail + '" name="ik_inv_prc" value="' + date + '"></form>';
     //document.getElementById("dynForm").submit();
-    $.post("http://cheprasova.com/interaction.php", 'ik_pm_no=' + id + '&ik_cli=' + mail + '&ik_inv_prc=' + date + '&ik_x_clientname=' + clientname + '&ik_x_clientphone=' + clientphone + '&ik_inv_st=send_to_ik', function () {
+    $.post("http://cheprasova.com/interaction.php", 'ik_pm_no=' + id + '&ik_cli=' + mail + '&ik_inv_prc=' + date + '&ik_x_clientname=' + clientname + '&ik_x_clientphone=' + clientphone + '&ik_am=' + price + '&ik_inv_st=send_to_ik', function () {
         //alert("success");
-        $('#payment').submit();
+        if (mail.length != 0 && clientname.length != 0 && clientphone != 0)
+            $('#payment').submit();
     })
         .done(function () {
             //alert("second success");

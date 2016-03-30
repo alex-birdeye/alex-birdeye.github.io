@@ -1047,18 +1047,21 @@
             <!-- LOGO -->
             <div class="format-item col-sm-4  wow fadeInDown" style="text-align: center">
                 <p style="font-size: 20px"> Фестиваль будет проходить</p>
-                    <p ><span style="font-size: 30px;">2 апреля</span><br>
+
+                <p><span style="font-size: 30px;">2 апреля</span><br>
                     с 10:00 до 17:00<br>
                     <span>г. Киев, ул. Якира, 13.</span></p>
             </div>
             <!-- /LOGO -->
             <!-- TEXT + BUTTON -->
             <div class="format-item col-sm-4 col-sm-offset-4 wow fadeInDown" style="text-align: center">
-                <p  style="font-size: 20px">Стоимость:</p>
-                    <p style="font-size: 20px"><span style="font-size: 30px">150 грн.</span>(+ 50 грн за партнера)<br>
-                        до 31.03</p>
-                    <p style="font-size: 20px"><span style="font-size: 30px">200грн.</span> (+ 100 грн за партнера)<br>
-                        с 1.04</p>
+                <p style="font-size: 20px">Стоимость:</p>
+
+                <p style="font-size: 20px"><span style="font-size: 30px">150 грн.</span>(+ 50 грн за партнера)<br>
+                    до 31.03</p>
+
+                <p style="font-size: 20px"><span style="font-size: 30px">200грн.</span> (+ 100 грн за партнера)<br>
+                    с 1.04</p>
             </div>
             <div class="col-xs-12 col-sm-8 col-sm-offset-2 lj-buttons wow fadeInUp"
                  data-wow-delay="1.5s" style="padding-bottom: 5px;">
@@ -1078,8 +1081,8 @@
         <div class="row">
             <!--<div class="col-sm-4 col-sm-offset-1">-->
             <!--<div class="format-item col-sm-12 col-md-3">-->
-                <!--<p><strong>Количество мест ограничено,</strong> чтобы забронировать место на интенсив оставьте свои-->
-                    <!--данные в форме справа.</p>-->
+            <!--<p><strong>Количество мест ограничено,</strong> чтобы забронировать место на интенсив оставьте свои-->
+            <!--данные в форме справа.</p>-->
             <!--</div>-->
 
             <!--<div class="col-sm-4 col-sm-offset-1 pay-form wow fadeIn" data-wow-delay="0.5s">-->
@@ -1098,9 +1101,16 @@
                            required="Введите Ваш e-mail" style="margin-top: 10px;"/>
                     <input type="text" class="form-control" name="ik_x_clientphone" value="" placeholder="Телефон"
                            required="Введите Ваш телефон" style="margin-top: 10px;"/>
-                    <p style="font-size: 16px">*количество мест ограничено</p>
+
+                            <p style="margin-top: 2%">Количество участников</p>
+                            <select id="participants" class="form-control">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
                     <input class="lj-button-left" type="submit" value="Принять участие" onclick="pay()"
                            style="border: 1px solid #c50d54">
+
+                    <p style="font-size: 16px">*количество мест ограничено</p>
                 </form>
             </div>
         </div>
